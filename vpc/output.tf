@@ -1,4 +1,4 @@
-output "eks-vpc_id" {
+output "eks-vpc-id" {
     value = aws_vpc.this.id
     # eks-vpc-id라는 키 값에 aws_vpc.this.id가 들어갈 예정
     # ex) vpc-0a58a9699538b831c
